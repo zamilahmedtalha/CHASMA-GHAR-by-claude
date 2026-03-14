@@ -95,7 +95,7 @@ export default function App() {
         <footer className="relative z-10 mt-24 py-12 border-t border-black/5 bg-white/50 backdrop-blur-md">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-3 text-display-sm text-[--color-text-primary]">
-              <Logo className="w-12 h-auto text-black" /> CHASMA GHAR
+              <Logo className="w-24 h-auto text-black" />
             </div>
             <div className="flex gap-6 text-label text-[--color-text-muted]">
               <a href="#" className="hover:text-[--color-text-primary] transition-colors">Instagram</a>

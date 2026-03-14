@@ -73,7 +73,7 @@ export const PillNav: React.FC<PillNavProps> = ({
         )}
       >
         <Link to="/" className="flex items-center gap-3 text-display-sm text-[--color-text-primary] z-50">
-          {logo ? <img src={logo} alt={logoAlt} className="h-8" /> : <><Logo className="w-12 h-auto text-black" /> CHASMA GHAR</>}
+          {logo ? <img src={logo} alt={logoAlt} className="h-8" /> : <Logo className="w-24 h-auto text-black" />}
         </Link>
 
         {/* Desktop Nav */}
